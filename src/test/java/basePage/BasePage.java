@@ -9,11 +9,11 @@ import org.testng.annotations.BeforeClass;
 
 public class BasePage {
 	
-	protected WebDriver driver;
+	public WebDriver driver;
 	
 	
 	//Constructor
-	protected BasePage(WebDriver driver)
+	public BasePage(WebDriver driver)
 	{
 		this.driver = driver;
 	}

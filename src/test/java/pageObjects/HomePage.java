@@ -3,7 +3,9 @@ package pageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class HomePage 
+import basePage.BasePage;
+
+public class HomePage
 {
 	WebDriver driver;
 	
