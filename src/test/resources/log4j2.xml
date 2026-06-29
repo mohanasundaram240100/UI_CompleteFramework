@@ -21,11 +21,12 @@
 </Policies>
 <DefaultRolloverStrategy max="10"/>
 </RollingFile>
+
 </Appenders>
 
 <Loggers>
 <Root level="INFO">
-<!-- <AppenderRef reference="Console"/> -->
+<!-- <AppenderRef ref="Console"/> -->
 <AppenderRef ref="File"/>
 </Root>
 </Loggers>
