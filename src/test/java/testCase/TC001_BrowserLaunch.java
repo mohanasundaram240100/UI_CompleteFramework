@@ -10,7 +10,7 @@ import pageObjects.HomePage;
 
 public class TC001_BrowserLaunch extends BasePage
 {
-	private static final Logger logger = LogManager.getLogger(TC001_BrowserLaunch.class);
+	Logger logger = LogManager.getLogger(TC001_BrowserLaunch.class);
 
 	TC001_BrowserLaunch(WebDriver driver) 
 	{
