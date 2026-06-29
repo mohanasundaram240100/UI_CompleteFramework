@@ -15,9 +15,6 @@ public class TC001_BrowserLaunch extends BasePage
 		
 	}
 
-
-	WebDriver driver;
-
 	
 @Test
 void Reg()
