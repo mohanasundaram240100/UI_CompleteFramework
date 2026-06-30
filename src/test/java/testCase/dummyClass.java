@@ -1,5 +1,6 @@
 package testCase;
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 
 import basePage.basePage1;
@@ -12,6 +13,7 @@ public class dummyClass extends basePage1 {
 		
 	}
 
+	@Test
 	void testMethod() {
 		DashBoardPage dbp = new DashBoardPage(driver);
 		dbp.setUsername();

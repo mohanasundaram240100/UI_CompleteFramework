@@ -1,5 +1,7 @@
 package basePage;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import java.time.Duration;
 
 import org.apache.logging.log4j.LogManager;
@@ -21,6 +23,7 @@ public class BasePage {
 		this.driver = driver;
 	}
 	
+	@BeforeMethod
 	@BeforeClass
 	public void setUp()
 	{
@@ -35,6 +38,7 @@ public class BasePage {
 		
 	}
 	
+	@AfterMethod
 	@AfterClass
 	public void tearDown()
 	{

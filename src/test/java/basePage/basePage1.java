@@ -1,5 +1,7 @@
 package basePage;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
@@ -16,6 +18,7 @@ public class basePage1 {
 		this.driver = driver;
 	}
 	
+	@BeforeMethod
 	@BeforeClass
 	void setUp()
 	{
@@ -26,6 +29,7 @@ public class basePage1 {
 		
 	}
 	
+	@AfterMethod
 	@AfterClass
 	void tearDown()
 	{
